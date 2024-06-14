@@ -1,0 +1,17 @@
+
+
+## Instructions
+- category of character or object
+- user gets to chose A or B pic
+- user gets 1 life
+- eser gets win or lose
+- if user wins he will go next page
+- if user loses game over gets notepic or text or audio
+- if user wins also gets audio pic or text
+
+
+ ## ** Extra detail **
+*(user has 3 levels)
+*(ill try to add GIF at the end)
+*(ill try to use Flex)
+*(ill try to make the user have a log in and sign in screen that transfer to another page)
