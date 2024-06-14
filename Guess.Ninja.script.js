@@ -1,12 +1,14 @@
 
- //credit to Ashley
-const quiz = ['guess who is "Iruka Sensei"', 'quess who crate "rasengan"', 'guess who is Pain'];
+ //credit to Ashley and Pokemon lab
+const quiz = ['guess who is "Iruka Sensei"', 
+              'quess who crate "rasengan"',  
+              'guess who is Pain'];
 
 let questionNum = 0;
 const question = document.querySelector('.question');
 const img1El = document.querySelector('#A');
 const image1El = document.querySelector('#B');
-//use exaple from Ashley
+//use exaple from Ashley look at if...else
 question.textContent = quiz[questionNum];
 question.addEventListener('click', () => {
     console.log(questionNum);
@@ -32,14 +34,14 @@ const play = (event) => {
 }} else {
             displayEl.textContent = 'Game Over!';
             setTimeout(function() {
-                window.location = "./index.html";
+            window.location = "./index.html";
             }, 2000);
         }
         console.log(playerChoice);
     }; 
      // credits to Ashley and Glenn
     const getPlayerChoice = (event) => {
-        return event.target.id;
+            return event.target.id;
     };
     //need info from MDN W2
     document.querySelectorAll('button').forEach((button) => {

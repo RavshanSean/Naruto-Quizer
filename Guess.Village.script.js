@@ -1,4 +1,4 @@
-// copy paste 
+// copy paste from 
 const quiz = ['guess where is konoha', 'guess where is Amegakure', 'guess figh with 9-tail'];
 let questionNum = 0;
 

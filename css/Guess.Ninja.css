@@ -38,6 +38,8 @@ h1 {
   animation: animate 8s linear infinite;
 }
 
+/* this is neon i got from youtube (https://www.youtube.com/watch?v=6xNcXwC6ikQ) and lights from google (https://www.youtube.com/watch?v=_13a3r6MYeM&t=2s)but where exactly i dont remeber */
+
 @keyframes animate {
   1%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
     color: #0e3742;
@@ -56,7 +58,8 @@ h1 {
 
 
     
-  
+  /* everything ealse i came out from my self and FlexBox */
+
   img {
    
     object-fit: cover;
@@ -94,7 +97,7 @@ border-color: rgba(40, 67, 135, 1);
    
   }
 
-/*js*/
+/* i fixed myself */
   .img1{
     background-image: url("https://media4.giphy.com/media/fNZzlhetWttyU/giphy.gif?cid=6c09b952ny2jwu0pvq3f048l089rqrshudg12xe2556h4xvb&ep=v1_gifs_search&rid=giphy.gif&ct=g");
     width: 455px;
