@@ -1,5 +1,5 @@
 
-const quiz = ['guess where is konoha', 'guess where is Amegakure', 'guess fight in Kumogakure' ];
+const quiz = ['guess where is konoha', 'guess where is Amegakure', 'guess figh with 9-tail' ];
 let questionNum = 0;
 //
 
@@ -24,8 +24,8 @@ question.addEventListener('click', () => {
 //
 const play = (event) => {
     let playerChoice = getPlayerChoice(event);
-    if (playerChoice === 'A') {
-        displayEl.textContent = 'you score alln 3!';
+    if (playerChoice === 'B') {
+        displayEl.textContent = 'you score all 3!';
         
         if (questionNum < quiz.length - 1) {
             questionNum++;

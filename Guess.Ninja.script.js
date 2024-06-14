@@ -73,7 +73,7 @@ question.addEventListener('click', () => {
 const play = (event) => {
     let playerChoice = getPlayerChoice(event);
     if (playerChoice === 'A') {
-        displayEl.textContent = 'You score all 3!';
+        displayEl.textContent = 'You scored all 3!';
         
         if (questionNum < quiz.length - 1) {
             questionNum++;
