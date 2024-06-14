@@ -1,14 +1,164 @@
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  
+  body {
+    text-align: center;
+    background: url("https://cdn.openart.ai/stable_diffusion/0fb226a8755c0bd77ecb4e12e83d394731187343_2000x2000.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+    height: auto;
+    width: 100%;
     
-    display: flex;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  }
+  
+  h1 {
+    padding: 50px;
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 2px linear-gradient(transparent,#0008);
+    line-height: 0.10em;
+    outline: none;
+    animation: animate 8s linear infinite;
+  }
+  
+  @keyframes animate {
+    1%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+      color: #0e3742;
+      text-shadow: none;
+    }
+    18.2%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100% {
+      color: #fff;
+      text-shadow: 0 0 0.5px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+    }
+  }
+  
+  
+  audio {
+    display: none;
+  }
+* 
+      
     
-    
-}
+    img {
+     
+      object-fit: cover;
+  object-position: top center;
+  border-radius:50%;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #555;
+  border-color: rgba(40, 67, 135, 1);
+    }
+  
+  
+  
+  
+    .img-placeholder {
+     
+      background-image: url("https://i.pinimg.com/originals/41/c1/fd/41c1fd4475399a20ff78bb0a7f1e836d.gif");
+      width: 455px;
+      height: 270px;
+      background-image: cover;
+      background-position: center;
+      background-size: 100% 100%;
+      border-radius: 88px;
+     
+    }
+    .image-placeholder {
+      background-image: url("https://qph.cf2.quoracdn.net/main-qimg-54f4f5f6e74e3da8cb8d1157864c25ec");
+      width: 455px;
+      height: 270px;
+      background-image: cover;
+      background-position: center;
+      background-size: 100% 100%;
+      border-radius: 88px;
+      
+     
+    }
 
 
 
+
+    /*js*/
+  .img1{
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/972104754100555686/41B3F14FAFEF15E6967496B3BE8A241A08855649/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    width: 455px;
+    height: 270px;
+    background-image: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 88px;
+
+  }
+
+  .image1{
+    background-image: url("https://64.media.tumblr.com/9976d3921fbcb6d00689d7a426d0899b/tumblr_pan4z7u3371whj7rvo2_500.gif");
+    width: 455px;
+    width: 455px;
+    height: 270px;
+    background-image: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 88px;
+
+  }
+
+
+  .img2{
+    background-image: url("https://j.gifs.com/ZjeD98.gif");
+    width: 455px;
+    height: 270px;
+    background-image: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 88px;
+
+  }
+
+  .image2{
+    background-image: url("https://i.makeagif.com/media/5-07-2016/KNxvCs.gif");
+    width: 455px;
+    height: 270px;
+    background-image: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 88px;
+  }
+
+  
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 32px;
+      flex-wrap: wrap;
+      padding: 200px 75px;
+      
+    }
+
+
+
+
+  /*https://i.pinimg.com/originals/41/c1/fd/41c1fd4475399a20ff78bb0a7f1e836d.gif*/
+  /*https://qph.cf2.quoracdn.net/main-qimg-54f4f5f6e74e3da8cb8d1157864c25ec*/

@@ -5,52 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./script.js"></script>
 </head>
 <body>
   
-    <nav>
-        <div id="actions">
-          <p>Sign in</p>
-          <button>Sign up</button>
-        </div>
-      </nav>
+  <div class="container">
+    <button type="submit" class="btn" onclick="openPopup()" style="--clr:#ff1867" ><h3 class="description">description</h3></button>
+     <div class ="popup" id="popup">
+        <img src="https://i.gifer.com/origin/9d/9d036900febef8da5657c81a8984f2e5_w200.gif">
+        <h3>You have two exams "Guess Ninja" or "Guess Village" if u wanna become a ninja You Must 
+            answer all question But remeber u have only one chance to do so! Choose your answer by clicking at
+             images if you guess right you will get next question if you answered wrong we will see you back here! ready? then go and 
+             pick what exam you want to pass 
+             you can do that by clicking at the button "Guess Ninja" or 
+             "Guess Vilage"</h3>
+       <!--got this idea from youtube i think-->
+       <button type="button" onclick="closePopup()" style="--clr:#ff1867">Ready!</button>
+     </div>
+  </div>
+
+
       <section id="hero">
         <div id="headers">
-          <h1>  Explore the world's best Naruto Quiz Game   </h1>
-        </div>
-        <input type="text" placeholder="Search..."/>
-        <div id="trending">
+          <h1>  Naruto Quiz Game   </h1>
         </div>
       </section>
 
-      <div id="subnav">
+      <!--<div id="subnav"> try this way maybe we can use push() and see ask Ben or Ashley
         <a href="Guess.Ninja.html">
         <button id="sort" href="Guess.Ninja.html">Guess Ninja</button></a>
         <a href="Guess.Village.html">
         <button id="filter" href="Guess.Village.html">Guess Village</button></a>
+      </div>-->
+          
+      <div id="subnav">
+        <a href="Guess.Ninja.html" style="--clr:#ff1867">
+        <p id="sort" href="Guess.Ninja.html">Guess Ninja</p><i></i></a>
+        <a href="Guess.Village.html" style="--clr:#ff1867">
+        <p id="filter" href="Guess.Village.html">Guess Village</p><i></i></a>
       </div>
 
       <main>
         <article class="card">
-          <div class="img-placeholder"></div>
+          <button class="img-placeholder"></button>
           <div class="card-footer">
       </div>
      </article>
         <article class="card">
-          <div class="image-placeholder"></div>
+          <button class="image-placeholder">
+          </button>
           <div class="card-footer">
          </div>
         </article>
-      </main>
+      </main> 
 
-      <audio controls autoplay loop>
+      <audio controls autoplay >
         <source src="naruto-shippuden-songs_naruto-shippuden-opening-01-hero-s-come-back.mp3" type="audio/mp3">
     </audio>
-       
-      
-        
    
-
+    <script defer src="./index.script.js"></script>
 </body>
 </html>

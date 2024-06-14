@@ -13,3 +13,14 @@
 *(ill try add GIF at the end)
 8(ill try use Flex) 
 *(ill try to user have a log in and sign in csreen that transfer to another page)
+
+
+
+
+
+
+-i did my code css and hrml from my backgrounds on freecodecamp 
+-my javascript credits to Ryan Ashley and Glenn
+-i give 2 otion to player
+-i give description to player
+-i give 3 questions to each catec
